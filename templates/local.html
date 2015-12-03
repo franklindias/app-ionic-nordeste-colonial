@@ -1,0 +1,31 @@
+
+ 
+  <ion-view view-title='local' class='local'>
+
+   
+    <div class="bar bar-header">
+      <a ng-show='code != 1' href='#/locais' class="button icon ion-chevron-left">Locais</a>
+      
+      <a ng-show='code == 1' href='#/' class="button icon ion-chevron-left">Menu</a>
+      <h1 class="title">{{locais[idLocal-1].nome}}</h1>
+      
+  <button ng-show='code == 1' ng-click='openModal()' class="button icon-left ion-ion-asterisk">Ver Pista</button>
+    </div>
+    
+    <ion-content class='has-header'>
+    
+    <ion-slide-box on-slide-changed="slideHasChanged($index)">
+          <ion-slide ng-repeat='img in locais[idLocal-1].imagens'>
+                <div class="box"                                                                         style="background-image:url('{{img}}');">
+                </div>
+          </ion-slide>
+    </ion-slide-box>
+    
+    <div class="card">
+      <div class="item item-text-wrap" style="text-align:justify;">
+           {{locais[idLocal-1].descricao}}
+      </div>
+    </div>
+    
+    </ion-content>
+</ion-view>    

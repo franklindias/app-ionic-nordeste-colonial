@@ -1,0 +1,81 @@
+<ion-view view-title='menu' class='cronograma'>
+      <div class="bar bar-header">
+      <a href='#/' class="button icon ion-chevron-left"></a>
+      <h1 class="title">Cronograma</h1>
+    </div>
+       
+    <ion-content class='has-header padding'>
+     <section>
+        <div id='dia1' class="item item-divider" style="background-color:#005E8B; border:0; color:white;">
+          <i class="ion ion-calendar"></i>
+          Dia 03/12
+      </div>
+         
+    <ul class="timeline">
+     
+        <li ng-repeat='dia in cronograma1'>
+          <div class="timeline-badge"><i class="ion {{dia.icon}}"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">{{dia.nome}}</h4>
+              <p>
+              <i class="ion ion-clock" style="margin-right:10px;"></i>
+              {{dia.horario}}</p>
+            </div>
+            <div class="timeline-body">
+              <p>{{dia.desc}}</p>
+            </div>
+          </div>
+        </li>
+    </ul>
+        <div id='dia2' class="item item-divider" style="background-color:#005E8B; border:0; color:white;">
+          <i class="ion ion-calendar"></i>
+          Dia 04/12
+      </div>
+        
+    <ul class="timeline">
+        <li ng-repeat='dia in cronograma2'>
+          <div class="timeline-badge"><i class="ion {{dia.icon}}"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">{{dia.nome}}</h4>
+              <p>
+              <i class="ion ion-clock" style="margin-right:10px;"></i>
+              {{dia.horario}}</p>
+            </div>
+            <div class="timeline-body">
+              <p>{{dia.desc}}</p>
+            </div>
+          </div>
+        </li>
+    </ul>
+        <div id='dia3' class="item item-divider" style="background-color:#005E8B; border:0; color:white;">
+          <i class="ion ion-calendar"></i>
+          Dia 05/12
+      </div>
+        
+          <ul class="timeline">
+        <li ng-repeat='dia in cronograma3'>
+          <div class="timeline-badge"><i class="ion {{dia.icon}}"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">{{dia.nome}}</h4>
+              <p>
+              <i class="ion ion-clock" style="margin-right:10px;"></i>
+              {{dia.horario}}</p>
+            </div>
+            <div class="timeline-body">
+              <p>{{dia.desc}}</p>
+            </div>
+          </div>
+        </li>
+    </ul>
+     
+</section>
+        
+    </ion-content>
+    
+
+
+  
+</ion-view>    

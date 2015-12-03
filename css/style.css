@@ -1,0 +1,72 @@
+body{
+    font-family: Roboto;
+}
+
+ion-slide-box{
+   height: 500px;
+}
+
+.local{
+    background-image: url('../img/back-azuleijo-03.png');
+    background-size: 85px;
+}
+
+a.item-lugar{
+    background-size:cover;
+    height:120px;
+}
+ 
+.box{
+    height:200px;
+    background-size:cover;
+}
+
+a.item-lugar h2{
+    font-weight: 800;
+    margin-top: 15%;
+    color: white;
+    font-size: 20px;
+}
+
+a.item-lugar h3{
+   color:white;
+    font-size: 15px;
+}
+
+
+.tabs-positive > .tabs, .tabs.tabs-positive{
+    background-color: #005E8B;
+}
+
+.menuPrincipal{
+    background-image: url(../img/back-menu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sobre{
+    background-image: url('../img/back-azuleijo-01.jpg');
+    background-size: 300px;
+}
+
+
+.cronograma{
+    background-image: url('../img/back-azuleijo-02.jpg');
+    background-size: 300px;
+}
+
+
+.logo{
+    text-align: center;
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.logoImg{
+    max-width: 80%; 
+}
+
+a.button-block{
+    width: 100%;
+}

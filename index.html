@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
+     <link href="css/timeline.css" rel="stylesheet">
+ 
+  </head>
+  <body ng-app="AppArq">
+        <script id="my-modal.html" type="text/ng-template">
+          <ion-modal-view>
+            <ion-header-bar>
+              <h1 class="title">Pista - {{locais[idLocal-1].nome}}</h1>
+               <a ng-click='closeModal()' class="button icon ion-close"></a>
+            </ion-header-bar>
+            <ion-content class='padding' style='background-image:url("img/back-azuleijo-04.png"); background-size:50px;'>
+              <img src="{{locais[idLocal-1].imgPista}}" style="width:100%;" alt="">
+              <div class="card">
+      <div class="item item-text-wrap" style="text-align:justify;">
+                  {{locais[idLocal-1].dica}}
+                  </div>
+                </div>
+              
+            </ion-content>
+          </ion-modal-view>
+        </script>
+      <ion-nav-view>
+          
+      </ion-nav-view>
+      
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    
+    <!-- controllers -->
+    <script src="js/controllers/cronogramaController.js"></script>
+    <script src="js/controllers/locaisController.js"></script>
+    <script src="js/controllers/menuController.js"></script>
+    <script src="js/controllers/sobreController.js"></script>
+    <script src="js/controllers/localController.js"></script>
+    
+       <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'> 
+    
+  </body>
+</html>

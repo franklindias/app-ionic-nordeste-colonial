@@ -1,0 +1,47 @@
+<ion-view view-title='sobre' class='sobre'>
+    <div class="bar bar-header">
+      <a href='#/' class="button icon ion-chevron-left"></a>
+      <h1 class="title">Sobre o Evento</h1>
+    </div>
+    
+    <ion-content class='has-header'>
+      <div class="card">
+          <div class="item item-divider">
+            Nordeste Colonial
+          </div>
+          <div class="item item-text-wrap" style="text-align: justify;">
+            O XV Congresso Regional de Arquitetura e Urbanismo acontecerá entre os             dias 03 e 05 de Dezembro de 2015 e é organizado pela Universidade                   Federal da Paraíba em parceria com a Universidade Federal do Rio Grande             do Norte. 
+            Neste ano o evento tem como tema “Nordeste Colonial: Uma viagem no                 tempo” e o objetivo é reviver e conhecer mais sobre as construções                 arquitetônicas, técnicas e características do período com ênfase nas                 cidades localizadas no Nordeste Brasileiro (Areia-PB, Alagoa Grande-             PB e Natal-RN).
+          </div>
+        </div>
+         <div class="card">
+          <div class="item item-divider">
+            Organização
+          </div>
+          <div class="item item-text-wrap">
+           <div class="list">
+            <div class="item item-avatar" ng-repeat='pessoa in idealizadores'>
+              <img src="{{pessoa.img}}">
+              <h2>{{pessoa.nome}}</h2>
+              <p>{{pessoa.desc}}</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="item item-divider">
+            Apoio
+        </div>
+          <div class="item item-text-wrap">
+           <div class="list">
+            <div class="item item-avatar" ng-repeat='pessoa in orientadores'>
+              <img src="{{pessoa.img}}">
+              <h2>{{pessoa.nome}}</h2>
+              <p>{{pessoa.desc}}</p>
+            </div>
+            </div>
+
+          </div>
+        </div>
+    </ion-content>
+</ion-view>    
