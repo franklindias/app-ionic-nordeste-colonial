@@ -73,7 +73,7 @@ app.controller('LocalController', function($scope, $stateParams, $ionicModal, $t
             descricao: 'O conjunto de casas no estilo colonial reproduzem os padrões de época. As residências térreas pertenciam as classes mais baixas e os sobrados de dois andares, às classes mais altas. Elas seguem o traçado da rua e são geminadas, com duas àguas, uma frontal e outra posterior. As aberturas frontais serviam de conexão com a rua e as posteriores para ventilação e iluminação natural. Entre as aberturas haviam as alcovas, para permanência noturna, e nesse tipo de edificação havia ausência de vegetação e de jardins. As casas eram padronizadas com o uso dos documentos normativos chamados cartas régias, advindo da cultura portuguesa medieval-renascentista. Atualmente a visibilidade desse conjunto de casas é prejudicada pela presença inadequada de fios e postes, o que não valoriza sua fachada original. Outro problema encontrado nesse quesito de preservação são as placas de alguns estabelecimentos comerciais que escondem sua originalidade com esses elementos que em muitos casos não “conversam” com a arquitetura colonial',
             dica: 'Nossa, percebeu a falta de sinalização? Mas fique atento, você chegou a um lugar muito importante para a memória cultural da cidade. Aqui você pode encontrar muitas relíquias e marcas da história de um cantor da terra. Olhe em sua volta e veja quantas construções coloniais, mas observe também que nem todas estão bem conservadas. Uffa! já andamos bastante, porém ainda está “frio” para encontrar o tesouro.',
             alerta: 'Siga o caminho, mas antes que tal se refrescar? Procure a casa com uma simpática senhora vendendo delícias geladas.',
-            imgPista: 'img/locais/conjunto-casas.png'
+            imgPista: 'img/memorial.png'
         },{
             nome: 'Igreja',
             imagens: ['igreja/1 ok.png',
@@ -104,7 +104,7 @@ app.controller('LocalController', function($scope, $stateParams, $ionicModal, $t
             descricao: 'Esse tipo de casa é uma variação da arquitetura colonial da época. Normalmente, essas casas possuíam 2 pavimentos (sobrados) em que a parte inferior servia para o comércio. Sua  configuração acompanha a forma das ruas, sua linearidade ou falta dela. O terreno possui subtrações devido a formatação gerada pelas ruas, além de possuírem duas fachadas, cada uma voltada para ruas distintas que formam a esquina. Desta forma, as plantas e telhados das casas sofrem alterações, podendo gerar telhados com água-furtada, que torna desnecessária a utilização de calhas e rufos.',
             dica: 'Agora sim você pode se refrescar! A busca merece essa pausa. Compre um dindin e admire a vista que te espera: a casa de esquina e o largo do teatro, eles auxiliam no traçado urbano da cidade e sua configuração ajuda no destaque para os elementos importantes do local.',
             alerta: 'Busque pelo ambiente ideal para apresentações culturais na cidade.',
-            imgPista: 'img/locais/casa-esquina.png'
+            imgPista: 'img/dindin.png'
         },{
             nome: 'Teatro Santa Ignez',
             imagens: ['teatro/1 ok.png',
